@@ -12,7 +12,7 @@ Interpretar o problema, aprender a montar projetos na _IDE Codeblocks_, estrutur
 Manipulação de áudio, interpretando ondas sonoras por meio de vetores. Neste contexto, foram desenvolvidas funcionalidades como alteração de volume, análise e aplicação de saturações e _limiters_ para alteração do alcance dinâmico. Como suporte ao desenvolvimento deste trabalho, além de disponibilizar um arquivo de áudio e documentos para teste, os professores disponibilizaram um módulo auxiliar com rotinas para leitura e escrita de arquivos do tipo .wav.
 ### Objetivos:
 Interpretar o problema, estruturar laços de repetição, trabalhar com vetores, evitar acesso indevido a memória, estruturar funções, fazer bom uso de variáveis, constantes e _flags_, fazer boa utilização dos recursos disponibilizados pelos professores.
-###Autores: 
+### Autores: 
 O trabalho foi realizado em dupla, juntamente com o aluno [Nicolas Vieira Ferreira](https://github.com/Viefer).
 
 ## Trabalho 3
