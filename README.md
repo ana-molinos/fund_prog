@@ -1,2 +1,24 @@
-# CSF13_fund_prog
-Repositório dedicado a 3 trabalhos, cujo objetivo foi aplicar conhecimentos em algortimos de programação, utilizando a linguagem C. Esse trabalhos compuseram parcialmente a nota da matéria de Fundamentos de Programação, presidida pelos professores doutores Leyza Dorini e Daniel Pigatto, na Universidade Técnológica Federal do Paraná.
+# Fundamentos de Programação
+Repositório dedicado aos trabalhos de avaliação parcial da disciplina de Fundamentos de Programação. O objetivo desses trabalhos foi aplicar conhecimentos em algoritmos de programação, utilizando a linguagem C. Para isso, foram propostos cenários em que era necessário utilizar a lógica de programação para resolver problemas simplificados do mundo real, utilizando os recursos da linguagem, aprendidos em aula ao longo da disciplina. Para cada trabalho, foram publicados as entregas feitas, que consistem no código principal e no relatório, que expõe brevemente como foi o desenvolvimento do projeto. Optei por não publicar os enunciados dos trabalhos, de modo a preservar a forma de avaliação da disciplina, mas, na sequência, disponibilizo uma breve explicação do contexto de cada um.
+
+## Trabalho 1
+### Contexto: 
+Um sistema que cruza dados de origens diversas com o propósito de localizar regiões apropriadas para a instalação de pontos de comércio e centrais de distribuição de produtos. A partir dessas regiões, determinar a intersecção entre elas que designa o melhor local para o propósito citado. Por questões de simplificação, as áreas são retangulares, ou seja, em outras palavras, o objetivo do trabalho era desenvolver um algoritmo que determinasse a intersecção entre retângulos, cujas coordenadas eram geradas por funções desenvolvidas pelos professores da matéria.  Além disso, seguindo o contexto, uma outra funcionalidade do sistema é analisar analisar o impacto da distância entre fornecedores de um mesmo produto e os lucros gerados pelos mesmos. Considerando que os vendedores se localizam no centro da região de vendas (i.e., no centro do retângulo), o segundo objetivo do trabalho era pensar em uma solução para calcular distâncias entre retângulos e definir o par de retângulos mais próximo possível. Além das funções citadas, os professores também disponibilizaram documentos de teste para um maior suporte durante o desenvolvimento do projeto.
+### Objetivos: 
+Interpretar o problema, aprender a montar projetos na _IDE Codeblocks_, estruturar condicionais, estruturar funções próprias e fazer boa utilização das funções disponibilizadas pelos professores, utilizar bibliotecas.
+
+## Trabalho 2
+### Contexto: 
+Manipulação de áudio, interpretando ondas sonoras por meio de vetores. Neste contexto, foram desenvolvidas funcionalidades como alteração de volume, análise e aplicação de saturações e _limiters_ para alteração do alcance dinâmico. Como suporte ao desenvolvimento deste trabalho, além de disponibilizar um arquivo de áudio e documentos para teste, os professores disponibilizaram um módulo auxiliar com rotinas para leitura e escrita de arquivos do tipo .wav.
+### Objetivos:
+Interpretar o problema, estruturar laços de repetição, trabalhar com vetores, evitar acesso indevido a memória, estruturar funções, fazer bom uso de variáveis, constantes e _flags_, fazer boa utilização dos recursos disponibilizados pelos professores.
+###Autores: 
+O trabalho foi realizado em dupla, juntamente com o aluno [Nicolas Vieira Ferreira](https://github.com/Viefer).
+
+## Trabalho 3
+### Contexto:
+O _console_ do jogo _Nintendo Wii_ funciona com o auxílio de um controle e uma _sensor bar_. Apesar do nome, a _sensor bar_ não possui sensores – ela tem dois conjuntos de LEDs infravermelhos, um em cada ponta. Na ponta do controle, há um sensor sensível apenas à faixa de frequência dos LEDs presentes na sensor bar. Com isso, o _Wiimote_ “enxerga” uma imagem escura, com 2 regiões claras que correspondem aos conjuntos de LEDs da _sensor bar_. Nesse contexto, o objetivo do trabalho era simular que estávamos desenvolvendo o algoritmo para detectar os dois leds da _sensor bar_. Para isso, recebíamos várias imagens de fundo preto com duas regiões claras (que correspondiam aos leds), e deveríamos trabalhar em funcionalidades de processamento de imagem, a fim de remover o ruído, otimizar a área dessas regiões, entre outras. Como suporte ao desenvolvimento deste trabalho, além de disponibilizar um arquivo de teste e geradores de imagens nos padrões citados anteriormente, os professores disponibilizaram um módulo auxiliar com rotinas de manipulação de arquivos do tipo .bmp.
+### Objetivos:
+Interpretar o problema, trabalhar com matrizes, evitar acesso indevido a memória, utilizar _struct_, estruturar funções, fazer bom uso de variáveis, constantes e _flags_, fazer boa utilização dos recursos disponibilizados pelos professores, pedir suporte durante as aulas e utilizar recursos extras ensinados em aula para desenvolvimento do trabalho, como por exemplo, a rotulação por componente conexo.
+### Autores: 
+O trabalho foi realizado em equipe, juntamente com as alunas [Amanda Jury Nakamura](https://github.com/AJNkamura) e [Julia Kamilly de Oliveira](https://github.com/mejuloli).
